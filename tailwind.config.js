@@ -6,7 +6,7 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            'fraunces': ["Fraunces", "serif"],
+            'header': ["Fraunces", "serif"],
         },
         extend: {},
     },

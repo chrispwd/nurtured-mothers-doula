@@ -11,12 +11,15 @@
   </head>
   <body>
     <header class="md:flex md:justify-start md:items-center h-1/4 w-full my-5">
-      <img alt="logo" class="md:flex-none mx-auto md:mx-5 border-solid border-2 h-64 w-64"/> 
+      <a href="/" class="md:flex-none">
+        <img alt="logo" class="mx-auto md:mx-5 border-solid border-2 h-64 w-64"/> 
+      </a>
       <div class="md:grow">
         <ul class="navigation flex space-x-16 md:static justify-center mt-5 font-header">
-          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="#about" class="" >About</a></li>
-          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="#postpartum" >Postpartum</a></li>
-          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="#birth-resources" >Birth Resources</a></li>
+          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/about.html" class="" >About</a></li>
+          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/birth.html" >Birth</a></li>
+          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/postpartum.html" >Postpartum</a></li>
+          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/resources.html" >Resources</a></li>
           <!-- <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50"><a href="#contact" >Contact</a></li> -->
         </ul>
       </div>
@@ -25,7 +28,7 @@
       <!-- <button class="test" onClick="clickHandle()">Click Me</button> -->
       <section id="landing-hero">
         <div class="relative w-full h-1/2 md:h-[120vh] border-2 overflow-y-scroll bg-right md:bg-cover bg-scroll opacity-75"
-             style="background-image:url('./src/assets/first-latch.jpeg')">
+             style="background-image:url('./assets/first-latch.jpeg')">
           <div class="flex flex-col justify-center items-center">
             <div class="h-80 flex justify-center items-center">
               <h1 id="title" class="font-header text-center text-8xl font-bold my-5">Nutured Mothers</h1>
@@ -118,7 +121,9 @@
       <div>
         <div class="flex justify-center items-center">
           <div id="booking-link" class="">
-            <a href="https://calendly.com" target="_blank" class=" mx-auto text-center px-5 py-2 border">Book A Consult</a>
+            <a href="https://calendly.com" target="_blank" class=" mx-auto text-center px-5 py-2 border">
+              <button>Book a consult</button>
+            </a>
           </div>
         </div>
         <div id="contact-links" class="flex items-center justify-center">

@@ -534,8 +534,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
 }
 
 .mx-auto {
@@ -554,6 +566,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-1\/2 {
@@ -680,12 +696,25 @@ video {
   line-height: 1;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .opacity-75 {
   opacity: 0.75;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .transition-all {
@@ -706,12 +735,66 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.\[display\:inherit\] {
+  display: inherit;
+}
+
+.\[top\:16rem\] {
+  top: 16rem;
+}
+
+.\[top\:8rem\] {
+  top: 8rem;
+}
+
+.\[top\:4rem\] {
+  top: 4rem;
+}
+
+.\[top\:2rem\] {
+  top: 2rem;
+}
+
+.hover\:block:hover {
+  display: block;
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
 
 .hover\:opacity-50:hover {
   opacity: 0.5;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.group:hover .group-hover\:underline {
+  text-decoration-line: underline;
+}
+
+.group:hover .group-hover\:opacity-50 {
+  opacity: 0.5;
+}
+
+.group:hover .group-hover\:transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.group:hover .group-hover\:delay-150 {
+  transition-delay: 150ms;
+}
+
+.group:hover .group-hover\:duration-500 {
+  transition-duration: 500ms;
+}
+
+.group:hover .group-hover\:ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (min-width: 768px) {
@@ -746,6 +829,16 @@ video {
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:space-x-16 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(4rem * var(--tw-space-x-reverse));
+    margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:bg-cover {

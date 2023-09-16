@@ -15,10 +15,16 @@
         <img alt="logo" class="mx-auto md:mx-5 border-solid border-2 h-64 w-64"/> 
       </a>
       <div class="md:grow">
-        <ul class="navigation flex space-x-16 md:static justify-center mt-5 font-header">
+        <ul class="navigation md:flex md:space-x-16 md:static md:justify-center text-center mt-5 font-header">
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/about.html" class="" >About</a></li>
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/birth.html" >Birth</a></li>
-          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/postpartum.html" >Postpartum</a></li>
+          <li class="group relative text-2xl"><a href="pages/postpartum.html" class="transition-all ease-in-out duration-500 delay-150 hover:opacity-50 hover:underline">Postpartum<span class="text-xs"> ⏷</span></a>
+            <ul class="hidden absolute [top:2rem] group-hover:block">
+              <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Home Visits</a></li>
+              <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Postpartum Planning</a></li>
+              <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Belly Binding</a></li>
+            </ul>
+          </li>
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/resources.html" >Resources</a></li>
           <!-- <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50"><a href="#contact" >Contact</a></li> -->
         </ul>

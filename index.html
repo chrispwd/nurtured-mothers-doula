@@ -9,20 +9,21 @@
     <link href="dist/output.css" rel="stylesheet">
     <title>Nurtured Mothers Doula Care</title>
   </head>
-  <body>
+  <body class="bg-background text-foreground">
     <header class="md:flex md:justify-start md:items-center h-1/4 w-full my-5">
       <a href="/" class="md:flex-none">
-        <img alt="logo" class="mx-auto md:mx-5 border-solid border-2 h-64 w-64"/> 
+        <img alt="logo" src="assets/circular-logo.png" class="mx-auto md:mx-5 h-64 w-64"/> 
       </a>
-      <div class="md:grow">
+      <div class="">
         <ul class="navigation md:flex md:space-x-16 md:static md:justify-center text-center mt-5 font-header">
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/about.html" class="" >About</a></li>
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/birth.html" >Birth</a></li>
-          <li class="group relative text-2xl"><a href="pages/postpartum.html" class="transition-all ease-in-out duration-500 delay-150 hover:opacity-50 hover:underline">Postpartum<span class="text-xs"> ⏷</span></a>
-            <ul class="hidden absolute [top:2rem] group-hover:block">
-              <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Home Visits</a></li>
-              <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Postpartum Planning</a></li>
-              <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Belly Binding</a></li>
+          <li class="group relative text-2xl"><a href="pages/postpartum.html" class="transition-all ease-in-out duration-500 delay-150 hover:opacity-50 hover:underline">Postpartum</a>
+            <span class="text-xs cursor-pointer" id="dropdown-arrow" onclick="toggleSubmenuVisibility(this)"> ⏷</span>
+            <ul id="postpartum-dropdown" class="hidden absolute [top:2rem] mx-auto bg-background z-50 group-hover:block">
+              <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Home Visits</a></li>
+              <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Postpartum Planning</a></li>
+              <li class="border-b border-background-dark  p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Belly Binding</a></li>
             </ul>
           </li>
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/resources.html" >Resources</a></li>
@@ -139,6 +140,6 @@
         </div>
       </div>
     </footer>
-    <script type="text/javascript" src="src/index.js"></script>
+    <script type="application/javascript" src="src/index.js"></script>
   </body>
 </html>

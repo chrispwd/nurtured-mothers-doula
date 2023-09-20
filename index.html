@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400&display=swap" rel="stylesheet">
     <link href="dist/output.css" rel="stylesheet">
     <title>Nurtured Mothers Doula Care</title>
   </head>
-  <body class="bg-background text-foreground">
-    <header class="md:flex md:justify-start md:items-center h-1/4 w-full my-5">
+  <body class="bg-background text-foreground font-body font-extralight">
+    <header class="md:flex md:justify-start md:items-center h-1/4 w-full py-5">
       <a href="/" class="md:flex-none">
         <img alt="logo" src="assets/circular-logo.png" class="mx-auto md:mx-5 h-64 w-64"/> 
       </a>
@@ -20,10 +20,10 @@
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/birth.html" >Birth</a></li>
           <li class="group relative text-2xl"><a href="pages/postpartum.html" class="transition-all ease-in-out duration-500 delay-150 hover:opacity-50 hover:underline">Postpartum</a>
             <span class="text-xs cursor-pointer" id="dropdown-arrow" onclick="toggleSubmenuVisibility(this)"> ⏷</span>
-            <ul id="postpartum-dropdown" class="hidden absolute [top:2rem] mx-auto bg-background z-50 group-hover:block">
+            <ul id="postpartum-dropdown" class="hidden absolute [top:2rem] [left:4rem] md:[left:0rem] mx-auto bg-background z-50 group-hover:block">
               <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Home Visits</a></li>
               <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Postpartum Planning</a></li>
-              <li class="border-b border-background-dark  p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Belly Binding</a></li>
+              <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Belly Binding</a></li>
             </ul>
           </li>
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/resources.html" >Resources</a></li>
@@ -36,12 +36,12 @@
       <section id="landing-hero">
         <div class="relative w-full h-1/2 md:h-[120vh] border-2 overflow-y-scroll bg-right md:bg-cover bg-scroll opacity-75"
              style="background-image:url('./assets/first-latch.jpeg')">
-          <div class="flex flex-col justify-center items-center">
+          <div class="text-background flex flex-col justify-center items-center">
             <div class="h-80 flex justify-center items-center">
-              <h1 id="title" class="font-header text-center text-8xl font-bold my-5">Nutured Mothers</h1>
+              <h1 id="title" class="font-light font-header text-center text-8xl my-5">Nutured Mothers</h1>
             </div>
             <div class="h-80 flex justify-end items-center">
-              <h2 id="title" class="grow font-header text-6xl text-center font-italic">When a baby is born,<br><em>so is a mother.</em></h2>
+              <h2 id="title" class="grow font-header font-light text-6xl text-center">When a baby is born,<br><em>so is a mother.</em></h2>
             </div>
             <div class="flex justify-center items-center bg-white">
               <div class="max-w-5xl">

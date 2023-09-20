@@ -10,6 +10,7 @@ module.exports = {
     theme: {
         fontFamily: {
             'header': ["Fraunces", "serif"],
+            'body': ["Fraunces", "serif"]
         },
         colors: {
             'foreground': {

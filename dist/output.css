@@ -680,11 +680,20 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-header {
+  font-family: Fraunces, serif;
+}
+
+.font-body {
   font-family: Fraunces, serif;
 }
 
@@ -712,9 +721,26 @@ video {
   font-weight: 700;
 }
 
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
 .text-foreground {
   --tw-text-opacity: 1;
   color: rgb(29 31 33 / var(--tw-text-opacity));
+}
+
+.text-background {
+  --tw-text-opacity: 1;
+  color: rgb(248 233 226 / var(--tw-text-opacity));
 }
 
 .opacity-75 {
@@ -737,6 +763,10 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.\[left\:4rem\] {
+  left: 4rem;
 }
 
 .\[top\:2rem\] {
@@ -777,10 +807,6 @@ video {
     flex: none;
   }
 
-  .md\:grow {
-    flex-grow: 1;
-  }
-
   .md\:items-center {
     align-items: center;
   }
@@ -801,5 +827,9 @@ video {
 
   .md\:bg-cover {
     background-size: cover;
+  }
+
+  .md\:\[left\:0rem\] {
+    left: 0rem;
   }
 }

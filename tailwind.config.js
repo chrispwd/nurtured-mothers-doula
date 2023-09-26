@@ -13,16 +13,12 @@ module.exports = {
             'body': ["Fraunces", "serif"]
         },
         colors: {
-            'foreground': {
-                'light': '#C9CDCF',
-                DEFAULT: '#1d1f21',
-                'dark': '#0A0A0B',
-            },
-            'background': {
-                'light': '#FAF6F0',
-                DEFAULT: '#F8E9E2',
-                'dark': '#e6d2b2',
-            },
+            'foreground-default': '#1d1f21',
+            'foreground-light': '#C9CDCF',
+            'foreground-dark': '0a0a0b',
+            'background-light': '#FCF4F1',
+            'background-default': '#F8E9E2',
+            'background-dark': '#ebc1ad',
             'pink': '#ff49db',
             'orange': '#ff7849',
             'green': '#13ce66',

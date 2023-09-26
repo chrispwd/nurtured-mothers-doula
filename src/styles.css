@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#parallax {
+    perspective: 10px;
+}
+
+#parallax-header {
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+#parallax-header > img {
+    transform: translateZ(-10px) scale(2);
+}

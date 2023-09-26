@@ -9,18 +9,18 @@
     <link href="dist/output.css" rel="stylesheet">
     <title>Nurtured Mothers Doula Care</title>
   </head>
-  <body class="bg-background text-foreground font-body font-extralight">
-    <header class="md:flex md:justify-start md:items-center h-1/4 w-full py-5">
+  <body class="overflow-y-clip bg-background-default text-foreground-default font-body font-extralight m-0">
+    <header class="bg-background-light md:flex md:justify-start md:items-center h-72 w-full py-2">
       <a href="/" class="md:flex-none">
-        <img alt="logo" src="assets/circular-logo.png" class="mx-auto md:mx-5 h-64 w-64"/> 
+        <img alt="logo" src="assets/circular-logo.png" class="mx-auto md:mx-5 h-32 w-32 md:h-52 md:w-52"/> 
       </a>
-      <div class="">
+      <div class="px-16">
         <ul class="navigation md:flex md:space-x-16 md:static md:justify-center text-center mt-5 font-header">
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/about.html" class="" >About</a></li>
           <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="pages/birth.html" >Birth</a></li>
           <li class="group relative text-2xl"><a href="pages/postpartum.html" class="transition-all ease-in-out duration-500 delay-150 hover:opacity-50 hover:underline">Postpartum</a>
             <span class="text-xs cursor-pointer" id="dropdown-arrow" onclick="toggleSubmenuVisibility(this)"> ⏷</span>
-            <ul id="postpartum-dropdown" class="hidden absolute [top:2rem] [left:4rem] md:[left:0rem] mx-auto bg-background z-50 group-hover:block">
+            <ul id="postpartum-dropdown" class="hidden absolute [top:2rem] [left:4rem] md:[left:0rem] bg-background-light z-50 group-hover:block">
               <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Home Visits</a></li>
               <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Postpartum Planning</a></li>
               <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="">Belly Binding</a></li>
@@ -32,114 +32,99 @@
       </div>
     </header>
     <main>
-      <!-- <button class="test" onClick="clickHandle()">Click Me</button> -->
-      <section id="landing-hero">
-        <div class="relative w-full h-1/2 md:h-[120vh] border-2 overflow-y-scroll bg-right md:bg-cover bg-scroll opacity-75"
-             style="background-image:url('./assets/first-latch.jpeg')">
-          <div class="text-background flex flex-col justify-center items-center">
-            <div class="h-80 flex justify-center items-center">
-              <h1 id="title" class="font-light font-header text-center text-8xl my-5">Nutured Mothers</h1>
-            </div>
-            <div class="h-80 flex justify-end items-center">
-              <h2 id="title" class="grow font-header font-light text-6xl text-center">When a baby is born,<br><em>so is a mother.</em></h2>
-            </div>
-            <div class="flex justify-center items-center bg-white">
-              <div class="max-w-5xl">
-                <p><em>Pregnancy and postpartum care inspired by tradition.</em></p>
-                <p>Traditionally, (across most of the world) birth and postpartum were rites of passage. Throughout pregnancy, birth, and beyond, women were celebrated and supported by their communities.</p>
-                <p><em>You deserve this care.</em></p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-                <p>
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-                  Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
+      <section id="parallax" class="h-[75vh] overflow-y-auto overflow-x-hidden">
+        <div id="parallax-header" class="relative flex justify-center items-center h-full">
+          <img class="background absolute h-[100%] w-[100%] object-cover z-[-1] opacity-60" alt="First latch" src="./assets/first-latch.jpeg"/>
+          <h1 class="font-bold font-header text-background-default text-center text-4xl md:text-8xl my-5 [transform: translateZ(-5px)] [transform: scale(1.5)]">Nurtured Mothers</h1>
+        </div>
+        <div class="tagline bg-background-dark py-16 text-3xl md:text-6xl text-center">
+          <h2>When a baby is born, <br><em>so is a mother.</em><h2>
+        </div>
+        <div class="content text-center">
+          <div class="content-wrap p-10 flex flex-col justify-center items-center bg-background-default">
+            <p class="max-w-5xl">Traditionally, (across most of the world) birth and postpartum were rites of passage. Throughout pregnancy, birth, and beyond, women were celebrated and supported by their communities.</p>
+            <p><strong><em>You deserve this care.</em></strong></p>
+          </div>
+        </div>
+        <footer class="h-72 flex justify-center items-center">
+          <div>
+            <div class="flex justify-center items-center">
+              <div id="booking-link" class="">
+                <a href="https://calendly.com" target="_blank" class=" mx-auto text-center px-5 py-2 border">
+                  <button>Book a consult</button>
+                </a>
               </div>
             </div>
+            <div id="contact-links" class="flex items-center justify-center">
+              <img alt="fb" src="" class="w-20 h-20 border"/>
+              <img alt="ig" src="" class="w-20 h-20 border"/>
+              <img alt="email" src="" class="w-20 h-20 border"/>
+            </div>
           </div>
-        </div>
+        </footer>
+
       </section>
-      <!-- TODO: clarify pages -->
-      <section id="about">
-        <h2 class="section-title">About</h2>
-        <p>
-          Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!
-          Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p>
-      </section>
-      <section id="services">
-        <h2 class="section-title">Services</h2>
-        <p>
-          Sed id semper risus in hendrerit gravida rutrum quisque non tellus orci. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu?
-        </p>
-      </section>
-      <section id="postpartum">
-        <h2 class="section-title">Postpartum</h2>
-        <p>
-          Vel risus commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui, id ornare arcu odio ut sem nulla pharetra diam. Ornare massa, eget egestas purus viverra accumsan.
-        </p>
-      </section>
-      <section id="birth-resources">
-        <h2 class="section-title">Birth Resources</h2>
-        <p>
-          Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Duis tristique sollicitudin nibh sit amet commodo?
-        </p>
-      </section>
-      <section id="contact">
-        <h2 class="section-title">Contact</h2>
-        <p>
-          Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Duis tristique sollicitudin nibh sit amet commodo?
-        </p>
-      </section>
+      <!-- <button class="test" onClick="clickHandle()">Click Me</button> -->
+      <!-- <section id="parallax"> -->
+        <!--   <div class="relative w-full h-[300px] md:h-[600px] border-2 overflow-y-scroll bg-contain bg-left md:bg-cover bg-fixed opacity-75" -->
+        <!--        style="background-image:url('./assets/first-latch.jpeg')"> -->
+          <!--     <div class="text-background flex flex-col justify-center items-center"> -->
+            <!--       <div class="h-36 md:h-80 flex justify-center items-center"> -->
+              <!--         <h1 id="title" class="font-light font-header text-center text-4xl md:text-8xl my-5">Nutured Mothers</h1> -->
+              <!--       </div> -->
+            
+            <!-- <div class="h-36 md:h-80 flex justify-end items-center"> -->
+              <!--   <h2 id="title" class="grow font-header font-light text-3xl md:text-6xl text-center">When a baby is born,<br><em>so is a mother.</em></h2> -->
+              <!-- </div> -->
+            
+            <!--   <div class="flex justify-center items-center bg-white"> -->
+              <!--     <div class="max-w-5xl"> -->
+                <!--       <p><em>Pregnancy and postpartum care inspired by tradition.</em></p> -->
+                <!--            <p> -->
+                  <!--         Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae! -->
+                  <!--         Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p> -->
+                <!--       <p> -->
+                  <!--         Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae! -->
+                  <!--         Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p> -->
+                <!--     </div> -->
+              <!--   </div> -->
+            <!--     </div> -->
+          <!--   </div> -->
+        <!-- </section> -->
+      <!-- <\!-- TODO: clarify pages -\-> -->
+        <!-- <div class="max-w-5xl text-center"> -->
+          <!-- <section id="about"> -->
+            <!--   <h2 class="section-title">About</h2> -->
+            <!--   <p> -->
+              <!--     Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae! -->
+              <!--     Mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra? Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus mauris vitae!</p> -->
+            <!-- </section> -->
+          <!-- <section id="services"> -->
+            <!--   <h2 class="section-title">Services</h2> -->
+            <!--   <p> -->
+              <!--     Sed id semper risus in hendrerit gravida rutrum quisque non tellus orci. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu? -->
+              <!--   </p> -->
+            <!-- </section> -->
+          <!-- <section id="postpartum"> -->
+            <!--   <h2 class="section-title">Postpartum</h2> -->
+            <!--   <p> -->
+              <!--     Vel risus commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui, id ornare arcu odio ut sem nulla pharetra diam. Ornare massa, eget egestas purus viverra accumsan. -->
+              <!--   </p> -->
+            <!-- </section> -->
+          <!-- <section id="birth-resources"> -->
+            <!--   <h2 class="section-title">Birth Resources</h2> -->
+            <!--   <p> -->
+              <!--     Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Duis tristique sollicitudin nibh sit amet commodo? -->
+              <!--   </p> -->
+            <!-- </section> -->
+          <!-- <section id="contact"> -->
+            <!--   <h2 class="section-title">Contact</h2> -->
+            <!--   <p> -->
+              <!--     Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Duis tristique sollicitudin nibh sit amet commodo? -->
+              <!--   </p> -->
+            <!-- </section> -->
+          <!-- </div> -->
     </main>
-    <footer class="h-80 flex justify-center items-center">
-      <div>
-        <div class="flex justify-center items-center">
-          <div id="booking-link" class="">
-            <a href="https://calendly.com" target="_blank" class=" mx-auto text-center px-5 py-2 border">
-              <button>Book a consult</button>
-            </a>
-          </div>
-        </div>
-        <div id="contact-links" class="flex items-center justify-center">
-          <img alt="fb" src="" class="w-20 h-20 border"/>
-          <img alt="ig" src="" class="w-20 h-20 border"/>
-          <img alt="email" src="" class="w-20 h-20 border"/>
-        </div>
-      </div>
-    </footer>
     <script type="application/javascript" src="src/index.js"></script>
   </body>
 </html>

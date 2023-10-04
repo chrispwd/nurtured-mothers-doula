@@ -13,7 +13,7 @@ module.exports = {
             'body': ["Fraunces", "serif"]
         },
         colors: {
-            'foreground-default': '#1d1f21',
+            'foreground-default': '#3A3D40',
             'foreground-light': '#C9CDCF',
             'foreground-dark': '0a0a0b',
             'background-light': '#FCF4F1',

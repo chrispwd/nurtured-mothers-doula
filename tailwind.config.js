@@ -16,7 +16,7 @@ module.exports = {
         colors: {
             'foreground-default': '#3A3D40',
             'foreground-light': '#C9CDCF',
-            'foreground-dark': '0a0a0b',
+            'foreground-dark': '#0a0a0b',
             'background-light': '#FCF4F1',
             'background-default': '#F8E9E2',
             'background-dark': '#ebc1ad',

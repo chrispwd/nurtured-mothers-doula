@@ -14,3 +14,7 @@
 .parallax-header > img {
     transform: translateZ(-10px) scale(2);
 }
+
+.text-stroke-2 {
+    text-shadow: -1px -1px 0 #3A3D40, 1px -1px 0 #3A3D40, -1px 1px 0 #3A3D40, 1px 1px 0 #3A3D40;
+}

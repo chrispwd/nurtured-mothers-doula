@@ -954,27 +954,18 @@ video {
   color: rgb(248 233 226 / var(--tw-text-opacity));
 }
 
-.text-foreground-default {
-  --tw-text-opacity: 1;
-  color: rgb(58 61 64 / var(--tw-text-opacity));
-}
-
-.text-foreground-light {
-  --tw-text-opacity: 1;
-  color: rgb(201 205 207 / var(--tw-text-opacity));
-}
-
 .text-foreground-dark {
   --tw-text-opacity: 1;
   color: rgb(10 10 11 / var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-foreground-default {
+  --tw-text-opacity: 1;
+  color: rgb(58 61 64 / var(--tw-text-opacity));
 }
 
-.no-underline {
-  text-decoration-line: none;
+.underline {
+  text-decoration-line: underline;
 }
 
 .opacity-60 {
@@ -1040,11 +1031,6 @@ video {
 
 .text-stroke-2 {
   text-shadow: -1px -1px 0 #3A3D40, 1px -1px 0 #3A3D40, -1px 1px 0 #3A3D40, 1px 1px 0 #3A3D40;
-}
-
-.hover\:text-foreground-light:hover {
-  --tw-text-opacity: 1;
-  color: rgb(201 205 207 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1125,6 +1111,10 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:justify-start {
     justify-content: flex-start;
   }
@@ -1165,6 +1155,11 @@ video {
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:pl-5 {

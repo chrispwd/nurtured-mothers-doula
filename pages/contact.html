@@ -5,15 +5,77 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400&display=swap" rel="stylesheet">
     <link href="../dist/output.css" rel="stylesheet">
     <title>Nurtured Mothers Doula Care</title>
   </head>
-  <body>
-    <main>
-      <div>
-        CONTACT
+  
+  <body class="overflow-y-scroll bg-background-default text-md md:text-xl text-foreground-default font-body font-extralight m-0">
+    
+    <header class="bg-background-light flex md:justify-start justify-around items-center h-56 w-full">
+      <a href="../index.html" class="md:flex-none">
+        <img alt="logo" src="../assets/circular-logo.png" class="mx-auto md:mx-5 h-32 w-32 md:h-52 md:w-52"/> 
+      </a>
+      <div class="px-5 md:px-16">
+        <ul class="navigation md:flex md:space-x-16 md:static md:justify-center text-center font-header">
+          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="about.html" class="" >About</a></li>
+          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="birth.html" >Birth</a></li>
+          <li class="group relative text-2xl">
+            <a href="postpartum.html" class="transition-all ease-in-out duration-500 delay-150 hover:opacity-50 hover:underline">Postpartum&nbsp;</a>
+            <span class="text-xs cursor-pointer inline relative" id="dropdown-arrow" onclick="toggleSubmenuVisibility(this)">
+              <svg class="inline text-foreground-default absolute top-0 left-0" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+              </svg>
+            </span>
+            <ul id="postpartum-dropdown" class="hidden absolute [top:2rem] [left:1rem] md:[left:0rem] bg-background-light z-50 group-hover:block">
+              <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="home-visits.html">Home Visits</a></li>
+              <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="postpartum-planning.html">Postpartum Planning</a></li>
+              <li class="border-b border-background-dark p-2 transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-center"><a href="belly-binding.html">Belly Binding</a></li>
+            </ul>
+          </li>
+          <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50 text-2xl"><a href="contact.html" >Contact</a></li>
+          <!-- <li class="transition-all ease-in-out duration-500 delay-150 hover:underline hover:opacity-50"><a href="#contact" >Contact</a></li> -->
+        </ul>
       </div>
+    </header>
+
+    <main>
+      <section id="about" class="md:h-[80vh] flex flex-col justify-between items-center">
+        <div class="h-1/2 w-full flex flex-col justify-start items-center">
+          <h1 class="pt-40 pb-5 text-4xl text-center text-foreground-default">Contact Me</h1>
+          <div class="md:w-[80%] md:flex md:items-center md:justify-around md:py-10">
+            <a class="group/fb hover:bg-background-light flex flex-col justify-around items-center w-80 h-64 py-5 border-foreground-light rounded-md transition-all ease-in-out duration-500 delay-150" href="https://www.facebook.com/NurturedMothersDoulaCare">
+              <div class="w-32 h-32 border border-foreground-light rounded-full">
+                <img class="rounded-full" alt="nurtured mothers logo" src="../assets/nmd.jpg" />
+              </div>
+              <button class="group/fb-hover:text-underline rounded-md px-10 py-5 text-xl transition-all ease-in-out duration-500 delay-150 group-hover/fb:underline group-hover/fb:bg-background-light">Facebook</button>
+            </a>
+            <a class="group/fb hover:bg-background-light flex flex-col justify-around items-center w-80 h-64 py-5 border-foreground-light rounded-md transition-all ease-in-out duration-500 delay-150" href="https://instagram.com/nurtured.mothers.doula">
+              <div class="w-32 h-32 border border-foreground-light rounded-full">
+                <img class="rounded-full opacity-50" alt="nurtured mothers logo" src="../assets/ig.png" />
+              </div>
+              <button class="group/fb-hover:text-underline rounded-md px-10 py-5 text-xl transition-all ease-in-out duration-500 delay-150 group-hover/fb:underline group-hover/fb:bg-background-light">Instagram</button>
+            </a>
+            <a class="group/fb hover:bg-background-light flex flex-col justify-around items-center w-80 h-64 py-5 border-foreground-light rounded-md transition-all ease-in-out duration-500 delay-150" href="https://calendly.com/nurturedmothersdoula/letschat">
+              <div class="w-32 h-32 border border-foreground-light rounded-full">
+                <img class="rounded-full opacity-50" alt="nurtured mothers logo" src="../assets/cal.png" />
+              </div>
+              <button class="group/fb-hover:text-underline rounded-md px-10 py-5 text-xl transition-all ease-in-out duration-500 delay-150 group-hover/fb:underline group-hover/fb:bg-background-light">Schedule A Consult</button>
+            </a>
+            <a class="group/fb hover:bg-background-light flex flex-col justify-around items-center w-80 h-64 py-5 border-foreground-light rounded-md transition-all ease-in-out duration-500 delay-150" href="mailto:nurturedmothersdoula@gmail.com">
+              <div class="w-32 h-32 border border-foreground-light rounded-full">
+                <img class="rounded-full opacity-50" alt="nurtured mothers logo" src="../assets/email-and-mail-icon-black-free-png.webp" />
+              </div>
+              <button class="group/fb-hover:text-underline rounded-md px-10 py-5 text-xl transition-all ease-in-out duration-500 delay-150 group-hover/fb:underline group-hover/fb:bg-background-light">Email</button>
+            </a>
+          </div>
+        </div>
+        <footer>
+          <div class="text-xs pt-8 pb-1 flex justify-center w-full">
+            <div class="px-2">&copy;2023 Nurtured Mothers Doula Care</div>
+            <div>&middot;</div>
+            <div class="px-2">Site built by <a href="https://chrisperez.xyz" class="hover:underline transition-all ease-in-out duration-500 hover:opacity-50">Chris Perez</a></div>
+        </footer>
+      </section>
     </main>
     <script type="text/javascript" src="../src/index.js"></script>
   </body>

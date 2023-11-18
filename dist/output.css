@@ -795,7 +795,7 @@ video {
 
 .border-background-dark {
   --tw-border-opacity: 1;
-  border-color: rgb(235 193 173 / var(--tw-border-opacity));
+  border-color: rgb(255 214 214 / var(--tw-border-opacity));
 }
 
 .border-foreground-light {
@@ -805,17 +805,17 @@ video {
 
 .bg-background-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(235 193 173 / var(--tw-bg-opacity));
+  background-color: rgb(255 214 214 / var(--tw-bg-opacity));
 }
 
 .bg-background-default {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 233 226 / var(--tw-bg-opacity));
+  background-color: rgb(255 235 235 / var(--tw-bg-opacity));
 }
 
 .bg-background-light {
   --tw-bg-opacity: 1;
-  background-color: rgb(252 244 241 / var(--tw-bg-opacity));
+  background-color: rgb(255 251 251 / var(--tw-bg-opacity));
 }
 
 .fill-foreground-default {
@@ -992,10 +992,6 @@ video {
   font-weight: 200;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
 .font-thin {
   font-weight: 100;
 }
@@ -1006,7 +1002,7 @@ video {
 
 .text-background-default {
   --tw-text-opacity: 1;
-  color: rgb(248 233 226 / var(--tw-text-opacity));
+  color: rgb(255 235 235 / var(--tw-text-opacity));
 }
 
 .text-foreground-dark {
@@ -1094,7 +1090,7 @@ video {
 
 .hover\:bg-background-light:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(252 244 241 / var(--tw-bg-opacity));
+  background-color: rgb(255 251 251 / var(--tw-bg-opacity));
 }
 
 .hover\:underline:hover {
@@ -1119,7 +1115,7 @@ video {
 
 .group\/fb:hover .group-hover\/fb\:bg-background-light {
   --tw-bg-opacity: 1;
-  background-color: rgb(252 244 241 / var(--tw-bg-opacity));
+  background-color: rgb(255 251 251 / var(--tw-bg-opacity));
 }
 
 .group\/fb:hover .group-hover\/fb\:underline {
